@@ -320,6 +320,7 @@
   (helm-mode)
   (setq helm-buffer-skip-remote-checking t ; Prevent helm-mini from querying remote buffers
         helm-buffer-max-length 40
+        helm-ff-show-dot-file-path t
         helm-boring-buffer-regexp-list '("\\` "
                                          "\\`\\*Async-native-compile-log\\*"
                                          "\\`\\*helm"
