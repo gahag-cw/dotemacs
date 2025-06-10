@@ -1,6 +1,7 @@
 ;; -*- byte-compile-warnings: (not free-vars); -*-
 ;; Package setup -------------------------------------------------------------------------
 (require 'package)
+(require 'use-package)
 
 (setq-default package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
                                  ("melpa" . "https://melpa.org/packages/")))
@@ -19,12 +20,6 @@
 (defmacro package-feature (feat &rest code)
   `(when (boundp ,feat)
          ,(cons 'progn code)))
-
-
-;; Use-package ---------------------------------------------------------------------------
-(unless (package-installed-p 'use-package)
-  (package-refresh-contents)
-  (package-install 'use-package))
 
 
 ;; Emacs ---------------------------------------------------------------------------------
