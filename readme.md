@@ -1,5 +1,9 @@
 # dotemacs - My personal .emacs file.
 
+## Installation
+
+Run the `install.sh` script.
+
 ## Screenshots
 Here's a screenshot of my dark theme. It's based on the doom-peacock theme.
 ![screenshot](https://i.imgur.com/mqOD68R.png)
