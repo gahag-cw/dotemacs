@@ -7,4 +7,6 @@ mkdir -p ~/.config/emacs
 ln -s "$(pwd)/mc-lists.el"  ~/.config/emacs/.mc-lists.el
 ln -s "$(pwd)/instances/$@" ~/.config/emacs/init.el
 
+git checkout a4c3505
+
 . "$(pwd)/instances/colors.sh"
