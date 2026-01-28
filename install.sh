@@ -9,4 +9,5 @@ ln -s "$(pwd)/instances/$@" ~/.config/emacs/init.el
 
 # git checkout 2e0a76e; python3 "$(pwd)/instances/colors.py" sh
 
-nohup @lessgo &
+@lessgo &
+disown
