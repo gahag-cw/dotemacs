@@ -7,4 +7,4 @@ mkdir -p ~/.config/emacs
 ln -s "$(pwd)/mc-lists.el"  ~/.config/emacs/.mc-lists.el
 ln -s "$(pwd)/instances/$@" ~/.config/emacs/init.el
 
-git checkout 1b3c703; python3 "$(pwd)/instances/colors.py" sh
+git checkout ec78c70; python3 "$(pwd)/instances/colors.py" sh
